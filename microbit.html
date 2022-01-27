@@ -209,7 +209,7 @@
                 let serializedData = 'id=' + gattServer.device.id + '&name=' + gattServer.device.name;
 
                 let request = $.ajax({
-                    url: "_UPDATE_THIS_", //Get the URL link from 'Current web app URL' Google Sheets
+                    url: "https://script.google.com/macros/s/AKfycbwUwUafvaLszscQzDY2OBr7C3GViInG97hClBmwEhsilkQpxq58AYHqW1Q66-6aT6f3/exec", //Get the URL link from 'Current web app URL' Google Sheets
                     type: "post",
                     data: serializedData
                 });
